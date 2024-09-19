@@ -7,11 +7,11 @@ const subtract = function (a, b) {
 };
 
 const sum = function (arr) {
-  return arr.reduce((total, current) => total + parseInt(current), 0);
+  return arr.reduce((total, current) => total + current, 0);
 };
 
-const multiply = function () {
-
+const multiply = function (arr) {
+  return arr.reduce((total, current) => total * current, 1);
 };
 
 const power = function () {
